@@ -1,0 +1,167 @@
+body{
+	font-family: Arial;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: white;
+	text-align: left;
+
+}
+th, td {
+	padding: 20px;
+}
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0f362D;
+	color: white;
+}
+/*ponle color a las filas par*/
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white; 
+}
+/*botones*/
+button{
+
+}
+.btn-g{
+	color: white;
+	background-color: #688A08;
+	border-radius: 6px;
+	display: inline-block;
+	padding: 11px 20px;
+	font-size: 15px;
+	text-decoration: none;
+	text-shadow: 0 1px  0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	border: 0;
+}
+.btn-g:hover{
+		background-color: #01DF3A;
+}
+.btn-g:active{
+	background-color: #088A68;
+}
+.btn-r{
+		color: white;
+		background-color: #4000FF;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 6px;
+		display: inline-block;
+		text-shadow: 0 1px  0 rgba(255,255,255,0.3);
+		box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+		border: 0;
+}
+.btn-r:hover{
+		background-color: #0040FF;
+}
+.btn-r:active{
+	background-color: #04B4AE;
+}
+.btn-a{
+		color: white;
+		background-color:#0B615E;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 6px;
+		display: inline-block;
+		text-shadow: 0 1px  0 rgba(255,255,255,0.3);
+		box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+		border: 0;
+}
+.btn-a:hover{
+		background-color: #0489B1;
+}
+.btn-a:active{
+	background-color: #045FB4;
+}
+
+/*Esta clase es para centrar la hoja de la pagina web*/
+.contenedor{
+    width: 95%;
+    max-width:1000px;
+    margin: auto;
+}
+/*Esta clase es para la separacion de los parrafos*/
+.contenedor p{
+    margin-bottom: 40px;
+}
+/*barra de navegacion*/
+header nav{
+    background:#04B4AE;
+    margin-bottom:10px;
+}
+/*list-style quitar lo preterminado de las opciones*/
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+/*estilo de los botones float hace que roten en este caso poner a lado*/ 
+header ul li{
+    float: right;
+}
+/*links*/
+header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: #2980b9;
+}
+
+.btn-edit{
+color: white;
+		background-color:#61380B;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 6px;
+		display: inline-block;
+		text-shadow: 0 1px  0 rgba(255,255,255,0.3);
+		box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+		border: 0;
+}
+
+
+.btn-delet{
+		color: white;
+		background-color:#61380B;
+		padding: 10px 20px;
+		text-decoration: none;
+		border-radius: 6px;
+		display: inline-block;
+		text-shadow: 0 1px  0 rgba(255,255,255,0.3);
+		box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+		border: 0;
+}
+
+.ventana{
+    background:rgba(0,0,102,1);
+    width:30%;
+    color:rgba(255,255,255,1);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+    text-align:center;
+    padding:33px;
+    min-height:250px;
+    border-radius:22px;
+    position:absolute;
+    left:34%;
+    top:25%;
+    display:none;
+    border-radius: 25px;
+}
+ 
+#cerrar{
+    position:absolute;
+    right:3px;
+    top:1px;
+}
+ 
